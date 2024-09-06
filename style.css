@@ -58,7 +58,7 @@
 }
 
 .home-img img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -181,4 +181,8 @@ td{
   .left, .main, .right {
     width: 100%;
   }
+}
+.picsize{
+  width: 20px;
+  height: 1000px;
 }
