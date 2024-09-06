@@ -67,14 +67,14 @@
   margin-bottom: 1rem;
 }
 
-.home-text h3 {
+.home-text h3{
   position: relative;
   padding-left: 6rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
-.home-text h3::before {
+.home-text h3::before{
   content: "";
   position: absolute;
   width: 80px;
@@ -100,6 +100,7 @@
   font-size: 1.5rem;
   transition: all 0.65s;
 }
+
 
 .socials-icons i:hover {
   transform: rotate3d(0, 0, 1, 90deg);
@@ -173,7 +174,7 @@ u{
 
 }
 
-td{
+.td{
   height: 100%;
   background-color: black;
 }
@@ -181,4 +182,101 @@ td{
   .left, .main, .right {
     width: 100%;
   }
+  .heady{
+    display: block;
+    padding: 0;
+    position: relative;
+  }
+  .boder{
+    width: 100%;
+  }
+  .logo{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    font-size: xx-large;
+  }
+  .navmenu{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .navmenu a{
+    width: 100%;
+    font-size: x-large;
+    display:flex;
+    justify-content: center;
+    margin:2% 0;
+  }
+  li{
+    text-align: center;
+    width: 100%;
+    font-size:large ;
+
+  }
+  .home{
+    padding: 0;
+    display: block;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    height: auto;
+  }
+  .socials-icons{
+    position: relative;
+    padding: 0;
+  }
+  .home-text h2{
+    font-size: xx-large;
+    text-align: center;
+
+  }
+  .home-text h3::before,.contact::before{
+    width: 22.5%;
+  }
+  .home-text h3{
+    margin-left: 2%;
+  }
+  .home-text p{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .home-img img{
+    width: 60%;
+  }
+  .home-img{
+    display: flex;
+    justify-content: center;
+  }
+  .scroll-btn{
+    display: none;
+  }
+  .socials-icons a img{
+    width: 20%;
+  }
+ .contact-icon{
+  margin-left: 17%;
+
+  }
+  .contact-icon a img{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .skills-head{
+    margin: 5%;
+    padding: 2%;
+  }
+  .all_logos{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-left: 22%;
+  }
+  
+  .contact{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 30px;
+  }
+
 }
