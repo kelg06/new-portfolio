@@ -2,115 +2,153 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widthadevice=width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <script src="https://phosphoricons.com/"></script>
     <link rel="stylesheet" href="style.css">
-    <link
-    rel="icon"
-    href="img/somee.png"
-    type="image/x-icon"/>
+    <link rel="icon" href="img/somee.png" type="image/x-icon"/>
   </head>
   <body class="boder">
-    <script>
-      alert("Turn on sound pls one of my favorite songs!!!!!")
-    </script>
-    <audio autoplay loop>
-      <source src="./thatthump.mp3">
-    </audio>
-  <header class="heady">
-    <a href="*" class="logo">Markel Gladney</a>
-    <ul class="navmenu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-    </ul>
-  </header>
-  <section class="home" id="home">
-  <div class="home-text">
-    <h2>Hello I'm Markel <img src="img/hand-waving.svg" alt=""><i class="ph-bold ph-hand-waving"></i></h2>
-    <h3> BaseCampCodingAcademy Student</h3>
-    <p>I am a currently enrolled at Base Camp Coding Academy and I've learned multiple coding languages over the 11 months ive been here and im interested in coding because ive always wanted to know how apps worked. </p>
-  </div>
-  <div class="home-img">
-    <img src="img/markel.JPG">
-  </div>
-  </section>
-  <div class="socials-icons">
-    <h3 class="contact"><u class="u">Contact</u></h3>
-    <div class="contact-icon">
-    <a href="mailto:markelgladney@yahoo.com"><img src="img/mailbox.svg"></a>
-    <a href="https://www.linkedin.com/in/markelgladney/"><img src="img/linkedin-logo.svg"></a>
-    <a href="https://github.com/kelg06"><img src="img/github-logo.svg"></a><br>
-    <a href="https://docs.google.com/document/d/1-91bZOLllUiKNaglHtHC4bylODgIplp2ewqdfMFuTjs/edit"><img src="img/bigger-logo.svg"></a>
-    </div>
-  </div>
-  <a href="#skills" class="scroll-btn">Scroll down<i class="ph-bold ph-arrow-bend-right-down"></i></a>
-  <section class="skills" id="skills">
-      <h1 class="skills-head"><u>Skills</u></h1>
-      <div class="all_logos">
-        <div class="logos">
-          <img class="pic" src="img/python.png" alt="Python Logo" />
-          <h3 class="hname">Python</h3>
+    <header class="heady">
+      <a href="#home" class="logo">Markel Gladney</a>
+      <nav class="navmenu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <h2>Hello, I’m Markel <img src="img/hand-waving.svg" alt="Hand waving"></h2>
+        <h3>BaseCamp Coding Academy Graduate</h3>
+        <p>Welcome to my professional portfolio showcasing my skills and projects.</p>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>  
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img src="img/markel.jpg" alt="Markel Gladney" class="profile-pic">
+        <p>Hello! I'm Markel Gladney, a passionate developer with a strong foundation in coding and problem-solving. I am a graduate of Bruce High School and recently completed an intensive 11-month program at Base Camp Coding Academy, where I gained proficiency in multiple programming languages. I specialize in creating efficient and user-friendly solutions using modern technologies. I am passionate about technology and eager to build a rewarding career in the tech field.</p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <img src="img/html icon.png" alt="HTML Icon">
+          <h3>HTML</h3>
+          <p>Creating structured and semantic web content.</p>
         </div>
-        <div class="logos">
-          <img class="pic" src="img/html icon.png" alt="HTML Logo" />
-          <h3 class="hname">HTML</h3>
+        <div class="skill-item">
+          <img src="img/css-icon.svg" alt="CSS Icon">
+          <h3>CSS</h3>
+          <p>Designing responsive and visually appealing websites.</p>
         </div>
-        <div class="logos">
-          <img class="pic" src="img/css-icon.svg" alt="CSS Logo" />
-          <h3 class="hname">CSS</h3>
+        <div class="skill-item">
+          <img src="img/javascript-1.svg" alt="JavaScript Icon">
+          <h3>JavaScript</h3>
+          <p>Building dynamic and interactive web experiences.</p>
         </div>
-        <div class="logos">
-          <img class="pic" src="img/javascript-1.svg" alt="Javascript Logo" />
-          <h3 class="hname">Javascript</h3>
+        <div class="skill-item">
+          <img src="img/python.png" alt="Python Icon">
+          <h3>Python</h3>
+          <p>Developing efficient scripts and backend systems.</p>
         </div>
-        <div class="logos">
-          <img class="pic" src="img/java.png" alt="Java Logo" />
-          <h3 class="hname">Java</h3>
+        <div class="skill-item">
+          <img src="img/java.png" alt="Java Icon">
+          <h3>Java</h3>
+          <p>Creating robust and scalable applications.</p>
         </div>
-        <div class="logos">
-          <img class="pic" src="img/django.png" alt="Django Logo" />
-          <h3 class="hname">Django</h3>
+        <div class="skill-item">
+          <img src="img/spring.png" alt="Spring Framework Icon">
+          <h3>Spring</h3>
+          <p>Building enterprise-level backend solutions.</p>
         </div>
-        <div class="logos">
-          <img class="pic" src="img/Git.png" alt="Git Logo" />
-          <h3 class="hname">Git</h3>
+        <div class="skill-item">
+          <img src="img/django.png" alt="Django Icon">
+          <h3>Django</h3>
+          <p>Developing web applications with Python.</p>
         </div>
-        <div class="logos">
-          <img class="pic" src="img/sql.png" alt="SQL Logo" />
-          <h3 class="hname">SQL</h3>
+        <div class="skill-item">
+          <img src="img/git.png" alt="Git Icon">
+          <h3>Git</h3>
+          <p>Version control and collaboration.</p>
         </div>
-        <div class="logos">
-          <img class="pic" src="img/spring.png" alt="Spring Logo" />
-          <h3 class="hname">Spring</h3>
+        <div class="skill-item">
+          <img src="img/sql.png" alt="SQL Icon">
+          <h3>SQL</h3>
+          <p>Managing and querying relational databases.</p>
         </div>
       </div>
-  </section>
-  <section class="projects" id="projects">
-    <h1 class="skills-head"><u>Projects</u></h1>
-    <span class="centered">
-    <table>
-      <tr>
-        <td class="td">
-      <a href="https://github.com/kelg06/unit-project-python-"><img class="img-size" src="img/tic tac toe gif.gif" alt="logo" target="_blank"></a></td></tr>
-      <tr>
-        <td class="td">
-          <p class="description">This project displays the very first group project I ever made where me and some peers put together a user friendly Tic-Tac-Toe game using only Python.</p>
-        </td>
-      </tr>
-    </table>
-    <table>
-    <tr>
-      <td class="td">
-    <a href="https://github.com/kelg06/charity"><img class="img-size" src="img/Screenshot removed.png" alt="logo" target="_blank"></a></td></tr>
-    <tr>
-      <td class="td">
-        <p class="charity">This is my project i did using Html&CSS featuring a charity Fundraiser for the people in need of a home and rehabilitation.</p>
-      </td>
-    </tr>
-    </table>
-    </span>
-  </section>
-</body>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-item">
+          <img src="img/project1.png" alt="Project 1 Screenshot">
+          <h3>Project 1: Tic Tac Toe</h3>
+          <p>A classic Tic Tac Toe game built with HTML, CSS, and JavaScript.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-item">
+          <img src="img/project2.png" alt="Project 2 Screenshot">
+          <h3>Project 2: Portfolio Website</h3>
+          <p>A responsive portfolio website showcasing my skills and projects.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-item">
+          <img src="img/HealingHandsbg.png" alt="Project 3 Screenshot">
+          <h3>Project 3: Healing Hands</h3>
+          <p>This is a project I created using Django,a donation website designed to support funding for lung cancer research and treatment.</p>
+          <a href="https://github.com/kelg06/Donation-Django" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:markelgladney@yahoo.com">markelgladney@yahoo.com</a></p>
+        <p>Phone: <a href="tel:+6629271945">+1 662-927-1945</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/markelgladney/"target="_blank">linkedin.com/in/markelgladney</a></p>
+      </div>
+    </section>
+
+    <audio controls loop class="audio-player">
+      <source src="thatthump.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <script>
+      // Toggle navigation menu
+      const hamburger = document.querySelector('.hamburger');
+      const navMenu = document.querySelector('.navmenu ul');
+
+      hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        hamburger.classList.toggle('open');
+      });
+
+      // Close navigation when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+          navMenu.classList.remove('active');
+          hamburger.classList.remove('open');
+        }
+      });
+    </script>
+  </body>
 </html>
