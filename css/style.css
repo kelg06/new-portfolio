@@ -76,6 +76,10 @@ section {
   text-align: center;
   margin-top: 80px; /* Prevent content from overlapping with fixed header */
 }
+.home{
+  width: 100vw;
+  height: 90vh;
+}
 .home-text{
   margin-top: 10%;
 }
@@ -104,6 +108,10 @@ section {
 }
 
 /* About Section */
+.aboutsect{
+  width: 100vw;
+  height: 90vh;
+}
 .about-container {
   margin-top: 5%;
   display: flex;
