@@ -187,6 +187,10 @@ section {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
+.hope-haven{
+  height: 410px;
+
+}
 
 .project-item img {
   width: 100%;
